@@ -1,0 +1,58 @@
+html body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.pvm-space {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: white;
+    width: 100%;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.02),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.028),
+    0 12.5px 10px rgba(0, 0, 0, 0.035),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.042),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+    0 100px 80px rgba(0, 0, 0, 0.07);
+
+}
+
+.pvm-background {
+    background-color: lightsalmon;
+    overflow: hidden;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 10% auto 10%;
+    grid-template-rows: 10% auto 10%;
+}
+
+.pvm-question-title-text {
+    text-align: center;
+}
+
+.pvm-question-text {
+    text-align: center;
+}
+
+.pvm-question-input {
+    margin: 10px auto;
+    width: 60%;
+    display: none;
+}
+
+.pvm-submit-button {
+    margin: 10px auto;
+    width: 20%;
+    display: block;
+}
+
+.pvm-alert {
+    display: block;
+}
