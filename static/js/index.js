@@ -1,3 +1,8 @@
+/* If you've found this file, YES the solutions are in plain text below, and YES the website is a bit janky. 
+But this was put together in 3 hours when I pretty deep in a bottle of wine. Besides, it's Python vs Matlab,
+not Python vs Matlab vs Javascript! 🤷*/
+
+
 class Question {
     constructor(id, title, text, solution){
         this.id = id
