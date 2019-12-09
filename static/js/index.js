@@ -1,5 +1,5 @@
 class Question {
-    constructor(id, title, text, img, solution){
+    constructor(id, title, text, solution){
         this.id = id
         this.title = title;
         this.text = text;
@@ -70,7 +70,7 @@ const questions = [
     )
 ]
 
-
+console.log(questions)
 var isIntro = true
 var currentQuestion
 
@@ -112,6 +112,8 @@ function markQuestion(question, playerAnswer){
         serveQuestion(currentQuestion + 1)
     } else {
         // Mark as incorrect
+        console.log(playerAnswer)
+        console.log(question)
         alert.textContent = 'Sorry, you got that question wrong, try again!'
         alert.classList.toggle('alert-success', false)
         alert.classList.toggle('alert-warning', true)
