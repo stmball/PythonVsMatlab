@@ -1,5 +1,5 @@
 class Question {
-    constructor(id, title, text, img, solution){
+    constructor(id, title, text, solution){
         this.id = id
         this.title = title;
         this.text = text;
